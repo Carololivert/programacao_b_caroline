@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    color: rgb(43, 46, 226);
+    
+}
+
+#titulo {
+    color: brown;
+    
+}
+
+.rodape {
+    color: aquamarine;
+    text-align: center;
+    border: 1px solid;
+
+}
+
+.entrada-usuario {
+    border: 1px solid;
+}
