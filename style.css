@@ -1,3 +1,7 @@
+* {
+    margin: 0px;
+}
+
 h1 {
     text-align: center;
     color: rgb(43, 46, 226);
@@ -20,4 +24,6 @@ h1 {
     border: 1px solid;
     text-align: center;
     text-decoration: double;
+    width: 100%;
+    bottom: 0;
 }
