@@ -8,6 +8,10 @@ h1 {
     
 }
 
+body{
+    background-image: url(https://s3.glbimg.com/v1/AUTH_35862ca5c6ab48b992baf1f1b4f7062e/m-extra-globo-com/incoming/23294435-261-a9d/w367h550-PROP/bombado.png);
+}
+
 #titulo {
     color: brown;
 
@@ -36,5 +40,5 @@ h1 {
     top: 50%;
     transform: translate( -50%, -50%);
     padding: 5px;
-    
+
 }
