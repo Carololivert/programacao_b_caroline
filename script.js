@@ -2,7 +2,7 @@ let titulo = document.getElementById("titulo").value;
 
 console.log(titulo);
 
-function submeter () {
+function submeter() {
     let nome = document.getElementById("nome").value;
     let cpf = document.getElementById("cpf").value;
     let idade = document.getElementById("idade").value;
