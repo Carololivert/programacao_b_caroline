@@ -10,8 +10,24 @@ function submeter() {
     console.log(validaCPF(cpf));
 }
 function validaCPF(cpf) {
-    if (cpf = "")
-    alert ("Campo CPF nao pode ser vazio")
-    return false;
+
+    if (cpf == ""){
+     alert ("Campo CPF nao pode ser vazio")
+        return false;
 }
-    return  true;
+    cpf = cpf.trim();
+
+    if(/[a-zA-Z]/.test(cpf)) {
+        console.log("Contem letras")
+        alert ("campo nao pode conter letras");
+        return false;
+    }
+
+    if(!/^[\d.-]+$/.test(cpf)) {
+        alert ("campo cotem letras e numeros")
+       
+    }
+
+    return true
+}
+
